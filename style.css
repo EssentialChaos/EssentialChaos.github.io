@@ -104,8 +104,8 @@ p {
 }
 
 .tile-image {
-  width: 175px; /* Fixed width */
-  height: 175px; /* Fixed height */
+  width: 250px; /* Fixed width */
+  height: 250px; /* Fixed height */
   object-fit: cover; /* Ensure image fills the box without distortion */
   border-radius: 5px;
   margin-bottom: 15px;
