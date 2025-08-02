@@ -39,31 +39,79 @@ p {
   margin: 20px 0;
 }
 
-/* Tile Section */
-.tile-section {
-  padding: 40px 20px;
+/* Section Styles */
+.tile-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #007acc;
+  margin-bottom: 30px;
 }
 
+/* Section 1: Tile Group 1 */
+.tile-section.section-1 {
+  padding: 40px 20px;
+  background-color: #e74c3c; /* Red */
+  margin-bottom: 40px;
+}
+
+/* Section 2: Tile Group 2 */
+.tile-section.section-2 {
+  padding: 40px 20px;
+  background-color: #2ecc71; /* Green */
+  margin-bottom: 40px;
+}
+
+/* Section 3: Tile Group 3 */
+.tile-section.section-3 {
+  padding: 40px 20px;
+  background-color: #f39c12; /* Orange */
+  margin-bottom: 40px;
+}
+
+/* Tile Section */
 .tile-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  padding: 20px;
 }
 
+/* Tile Styling */
 .tile {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 20px;
   text-align: center;
-  font-size: 1.5rem;
-  color: #34495e;
   transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.tile a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .tile:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+.tile-image {
+  width: 250px; /* Fixed width */
+  height: 250px; /* Fixed height */
+  object-fit: cover; /* Ensure image fills the box without distortion */
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.tile h3 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: #34495e;
+}
+
+.tile p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
