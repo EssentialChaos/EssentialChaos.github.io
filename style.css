@@ -48,28 +48,28 @@ p {
 }
 
 /* Section 1: Tile Group 1 */
-.tile-section.section-1 {
+.tile-section.section1 {
   padding: 40px 20px;
   background-color: #e74c3c; /* Red */
   margin-bottom: 40px;
 }
 
 /* Section 2: Tile Group 2 */
-.tile-section.section-2 {
+.tile-section.section2 {
   padding: 40px 20px;
   background-color: #2ecc71; /* Green */
   margin-bottom: 40px;
 }
 
 /* Section 3: Tile Group 3 */
-.tile-section.section-3 {
+.tile-section.section3 {
   padding: 40px 20px;
   background-color: #f39c12; /* Orange */
   margin-bottom: 40px;
 }
 
 /* Section 4: Tile Group 4 */
-.tile-section.section-4 {
+.tile-section.section4 {
   padding: 40px 20px;
   background-color: #f39c12; /* Orange */
   margin-bottom: 40px;
