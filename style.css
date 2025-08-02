@@ -68,6 +68,13 @@ p {
   margin-bottom: 40px;
 }
 
+/* Section 4: Tile Group 4 */
+.tile-section.section-4 {
+  padding: 40px 20px;
+  background-color: #f39c12; /* Orange */
+  margin-bottom: 40px;
+}
+
 /* Tile Section */
 .tile-container {
   display: grid;
